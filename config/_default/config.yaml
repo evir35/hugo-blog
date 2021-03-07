@@ -1,0 +1,40 @@
+baseURL: /
+title: evir35
+
+theme: github.com/wangchucheng/hugo-eureka
+
+paginate: 3
+copyright: >
+  &copy; 2021 evir35
+enableEmoji: true
+enableGitInfo: false
+summaryLength: 75
+
+defaultContentLanguage: en
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
+
+# Uncomment for google analytics
+# googleAnalytics: UA-123-45
+
+markup:
+  # Do not modify markup.highlight
+  highlight:
+    codeFences: false
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  author: authors
+
+build:
+  useResourceCacheWhen: always

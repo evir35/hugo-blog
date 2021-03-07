@@ -1,0 +1,5 @@
+comment:
+  platform: disqus
+
+  disqus:
+    shortname: evir35-blog
